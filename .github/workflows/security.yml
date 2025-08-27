@@ -20,6 +20,6 @@ jobs:
         with:
           comment-pr: true
           claude-api-key: ${{ secrets.CLAUDE_API_KEY }}
-          claude-model: 'claude-sonnet-4'
+          claude-model: 'claude-opus-4'
           claudecode-timeout: '5'
           run-every-commit: 'true'
